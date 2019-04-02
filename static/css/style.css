@@ -30,7 +30,7 @@ body {
   background-color: #ebebeb;
 }
 
-.index .top {
+.index .top, page .top {
   width: 100%;
   background-color: #12b7f5;
   position: fixed;
@@ -41,14 +41,14 @@ body {
   padding-right: 0.6rem;
 }
 
-.index .top .back {
+.index .top .back, page .top .back {
   width: 0.23rem;
   height: 0.44rem;
   float: left;
   padding: 0.42rem 0.6rem;
 }
 
-.index .top .top_title {
+.index .top .top_title, page .top .top_title {
   position: absolute;
   left: 0;
   right: 0;
@@ -60,7 +60,7 @@ body {
   text-align: center;
 }
 
-.index .content {
+.index .content, page .content {
   position: absolute;
   left: 0;
   right: 0;
@@ -69,7 +69,7 @@ body {
   overflow: auto;
 }
 
-.index .content .Industrial {
+.index .content .Industrial, page .content .Industrial {
   background-color: #ffffff;
   position: absolute;
   left: 0;
@@ -79,13 +79,13 @@ body {
   overflow: auto;
 }
 
-.index .content .Industrial .Ibanner .Ibanner_img {
+.index .content .Industrial .Ibanner .Ibanner_img, page .content .Industrial .Ibanner .Ibanner_img {
   width: 10.8rem;
   height: 4.01rem;
   display: block;
 }
 
-.index .content .Industrial .Imenu {
+.index .content .Industrial .Imenu, page .content .Industrial .Imenu {
   margin: 0.36rem 0.38rem 0.22rem 0.38rem;
   background-color: #4ea3f2;
   border-radius: 0.5rem;
@@ -95,11 +95,11 @@ body {
           box-shadow: 0rem 0.05rem 0.2rem #4ea3f2;
 }
 
-.index .content .Industrial .Imenu .Imenu_demo:last-child {
+.index .content .Industrial .Imenu .Imenu_demo:last-child, page .content .Industrial .Imenu .Imenu_demo:last-child {
   border-right: 0;
 }
 
-.index .content .Industrial .Imenu .Imenu_demo {
+.index .content .Industrial .Imenu .Imenu_demo, page .content .Industrial .Imenu .Imenu_demo {
   width: 2.43rem;
   float: left;
   line-height: 0.45rem;
@@ -109,12 +109,12 @@ body {
   text-align: center;
 }
 
-.index .content .Industrial .classify {
+.index .content .Industrial .classify, page .content .Industrial .classify {
   border-bottom: 0.2rem solid #eeeeee;
   overflow: hidden;
 }
 
-.index .content .Industrial .classify .classify_demo {
+.index .content .Industrial .classify .classify_demo, page .content .Industrial .classify .classify_demo {
   float: left;
   width: 2.67rem;
   border-right: 0.03rem solid #eeeeee;
@@ -122,7 +122,7 @@ body {
   height: 2.58rem;
 }
 
-.index .content .Industrial .classify .classify_demo .calssify_iconDiv {
+.index .content .Industrial .classify .classify_demo .calssify_iconDiv, page .content .Industrial .classify .classify_demo .calssify_iconDiv {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -136,71 +136,71 @@ body {
   height: 1rem;
 }
 
-.index .content .Industrial .classify .classify_demo .calssify_iconDiv .classify_icon1 {
+.index .content .Industrial .classify .classify_demo .calssify_iconDiv .classify_icon1, page .content .Industrial .classify .classify_demo .calssify_iconDiv .classify_icon1 {
   display: block;
   width: 0.6rem;
   height: 0.58rem;
 }
 
-.index .content .Industrial .classify .classify_demo .calssify_iconDiv .classify_icon2 {
+.index .content .Industrial .classify .classify_demo .calssify_iconDiv .classify_icon2, page .content .Industrial .classify .classify_demo .calssify_iconDiv .classify_icon2 {
   display: block;
   width: 0.59rem;
   height: 0.59rem;
 }
 
-.index .content .Industrial .classify .classify_demo .calssify_iconDiv .classify_icon3 {
+.index .content .Industrial .classify .classify_demo .calssify_iconDiv .classify_icon3, page .content .Industrial .classify .classify_demo .calssify_iconDiv .classify_icon3 {
   display: block;
   width: 0.58rem;
   height: 0.58rem;
 }
 
-.index .content .Industrial .classify .classify_demo .calssify_iconDiv .classify_icon4 {
+.index .content .Industrial .classify .classify_demo .calssify_iconDiv .classify_icon4, page .content .Industrial .classify .classify_demo .calssify_iconDiv .classify_icon4 {
   display: block;
   width: 0.68rem;
   height: 0.58rem;
 }
 
-.index .content .Industrial .classify .classify_demo .calssify_iconDiv .classify_icon5 {
+.index .content .Industrial .classify .classify_demo .calssify_iconDiv .classify_icon5, page .content .Industrial .classify .classify_demo .calssify_iconDiv .classify_icon5 {
   display: block;
   width: 0.59rem;
   height: 0.46rem;
 }
 
-.index .content .Industrial .classify .classify_demo .calssify_iconDiv .classify_icon6 {
+.index .content .Industrial .classify .classify_demo .calssify_iconDiv .classify_icon6, page .content .Industrial .classify .classify_demo .calssify_iconDiv .classify_icon6 {
   display: block;
   width: 0.49rem;
   height: 0.46rem;
 }
 
-.index .content .Industrial .classify .classify_demo .calssify_iconDiv .classify_icon7 {
+.index .content .Industrial .classify .classify_demo .calssify_iconDiv .classify_icon7, page .content .Industrial .classify .classify_demo .calssify_iconDiv .classify_icon7 {
   display: block;
   width: 0.61rem;
   height: 0.62rem;
 }
 
-.index .content .Industrial .classify .classify_demo .calssify_iconDiv .classify_icon8 {
+.index .content .Industrial .classify .classify_demo .calssify_iconDiv .classify_icon8, page .content .Industrial .classify .classify_demo .calssify_iconDiv .classify_icon8 {
   display: block;
   width: 0.52rem;
   height: 0.52rem;
 }
 
-.index .content .Industrial .classify .classify_demo .classify_p {
+.index .content .Industrial .classify .classify_demo .classify_p, page .content .Industrial .classify .classify_demo .classify_p {
   color: #4d4d4d;
   font-size: 0.34rem;
   text-align: center;
 }
 
-.index .content .Industrial .recentNew {
+.index .content .Industrial .recentNew, page .content .Industrial .recentNew {
   padding: 0 0.78rem 0 0.6rem;
   border-bottom: 0.2rem solid #eeeeee;
 }
 
-.index .content .Industrial .recentNew .recentNew_titleDiv {
+.index .content .Industrial .recentNew .recentNew_titleDiv, page .content .Industrial .recentNew .recentNew_titleDiv {
   overflow: hidden;
   border-bottom: solid 0.01rem #e8e7e7;
 }
 
-.index .content .Industrial .recentNew .recentNew_titleDiv .recentNew_p {
+.index .content .Industrial .recentNew .recentNew_titleDiv .recentNew_p, page .content .Industrial .recentNew .recentNew_titleDiv .recentNew_p {
   padding-left: 0.05rem;
   float: left;
   color: #333333;
@@ -208,19 +208,19 @@ body {
   line-height: 1.5rem;
 }
 
-.index .content .Industrial .recentNew .recentNew_titleDiv .recentNew_title_right {
+.index .content .Industrial .recentNew .recentNew_titleDiv .recentNew_title_right, page .content .Industrial .recentNew .recentNew_titleDiv .recentNew_title_right {
   float: right;
   overflow: hidden;
 }
 
-.index .content .Industrial .recentNew .recentNew_titleDiv .recentNew_title_right .recentNew_right_p {
+.index .content .Industrial .recentNew .recentNew_titleDiv .recentNew_title_right .recentNew_right_p, page .content .Industrial .recentNew .recentNew_titleDiv .recentNew_title_right .recentNew_right_p {
   color: #666666;
   font-size: 0.38rem;
   line-height: 1.5rem;
   float: left;
 }
 
-.index .content .Industrial .recentNew .recentNew_titleDiv .recentNew_title_right .next {
+.index .content .Industrial .recentNew .recentNew_titleDiv .recentNew_title_right .next, page .content .Industrial .recentNew .recentNew_titleDiv .recentNew_title_right .next {
   float: left;
   width: 0.14rem;
   height: 0.27rem;
@@ -228,12 +228,12 @@ body {
   margin-top: 0.58rem;
 }
 
-.index .content .Industrial .recentNew .recentNew_nr {
+.index .content .Industrial .recentNew .recentNew_nr, page .content .Industrial .recentNew .recentNew_nr {
   padding-bottom: 0.5rem;
   width: 100%;
 }
 
-.index .content .Industrial .recentNew .recentNew_nr .recent_textDiv {
+.index .content .Industrial .recentNew .recentNew_nr .recent_textDiv, page .content .Industrial .recentNew .recentNew_nr .recent_textDiv {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
@@ -246,7 +246,7 @@ body {
   border-bottom: solid 0.02rem #e8e7e7;
 }
 
-.index .content .Industrial .recentNew .recentNew_nr .recent_textDiv .recent_text {
+.index .content .Industrial .recentNew .recentNew_nr .recent_textDiv .recent_text, page .content .Industrial .recentNew .recentNew_nr .recent_textDiv .recent_text {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
@@ -255,36 +255,36 @@ body {
   line-height: 0.8rem;
 }
 
-.index .content .Industrial .recentNew .recentNew_nr .recent_textDiv .recent_time {
+.index .content .Industrial .recentNew .recentNew_nr .recent_textDiv .recent_time, page .content .Industrial .recentNew .recentNew_nr .recent_textDiv .recent_time {
   color: #333333;
   font-size: 0.34rem;
   margin-left: 0.2rem;
   line-height: 0.8rem;
 }
 
-.index .content .Industrial .startShop {
+.index .content .Industrial .startShop, page .content .Industrial .startShop {
   padding: 0 0.6rem;
   padding-bottom: 0.14rem;
 }
 
-.index .content .Industrial .startShop .startShop_title {
+.index .content .Industrial .startShop .startShop_title, page .content .Industrial .startShop .startShop_title {
   color: #333333;
   font-size: 0.44rem;
   padding: 0.49rem 0.34rem 0.58rem 0.34rem;
   border-bottom: solid 0.02rem #e8e7e7;
 }
 
-.index .content .Industrial .startShop .startShop_demo:last-child {
+.index .content .Industrial .startShop .startShop_demo:last-child, page .content .Industrial .startShop .startShop_demo:last-child {
   border: 0;
 }
 
-.index .content .Industrial .startShop .startShop_demo {
+.index .content .Industrial .startShop .startShop_demo, page .content .Industrial .startShop .startShop_demo {
   overflow: hidden;
   border-bottom: solid 0.02rem #e8e7e7;
   padding: 0.34rem 0;
 }
 
-.index .content .Industrial .startShop .startShop_demo .startShop_img {
+.index .content .Industrial .startShop .startShop_demo .startShop_img, page .content .Industrial .startShop .startShop_demo .startShop_img {
   float: left;
   width: 1.92rem;
   height: 1.9rem;
@@ -293,7 +293,7 @@ body {
   margin-top: 0.04rem;
 }
 
-.index .content .Industrial .startShop .startShop_demo .startShop_zwDiv {
+.index .content .Industrial .startShop .startShop_demo .startShop_zwDiv, page .content .Industrial .startShop .startShop_demo .startShop_zwDiv {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -302,7 +302,7 @@ body {
   white-space: nowrap;
 }
 
-.index .content .Industrial .startShop .startShop_demo .startShop_zwDiv .startShop_info {
+.index .content .Industrial .startShop .startShop_demo .startShop_zwDiv .startShop_info, page .content .Industrial .startShop .startShop_demo .startShop_zwDiv .startShop_info {
   min-height: 1.4rem;
   float: left;
   overflow: hidden;
@@ -310,11 +310,11 @@ body {
   white-space: nowrap;
 }
 
-.index .content .Industrial .startShop .startShop_demo .startShop_zwDiv .startShop_info .startShop_nameDiv {
+.index .content .Industrial .startShop .startShop_demo .startShop_zwDiv .startShop_info .startShop_nameDiv, page .content .Industrial .startShop .startShop_demo .startShop_zwDiv .startShop_info .startShop_nameDiv {
   margin-bottom: 0.26rem;
 }
 
-.index .content .Industrial .startShop .startShop_demo .startShop_zwDiv .startShop_info .startShop_nameDiv .startShop_label {
+.index .content .Industrial .startShop .startShop_demo .startShop_zwDiv .startShop_info .startShop_nameDiv .startShop_label, page .content .Industrial .startShop .startShop_demo .startShop_zwDiv .startShop_info .startShop_nameDiv .startShop_label {
   float: left;
   padding: 0 0.12rem;
   line-height: 0.44rem;
@@ -326,7 +326,7 @@ body {
   margin-top: 0.06rem;
 }
 
-.index .content .Industrial .startShop .startShop_demo .startShop_zwDiv .startShop_info .startShop_nameDiv .startShop_name {
+.index .content .Industrial .startShop .startShop_demo .startShop_zwDiv .startShop_info .startShop_nameDiv .startShop_name, page .content .Industrial .startShop .startShop_demo .startShop_zwDiv .startShop_info .startShop_nameDiv .startShop_name {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -334,23 +334,23 @@ body {
   font-size: 0.38rem;
 }
 
-.index .content .Industrial .startShop .startShop_demo .startShop_zwDiv .startShop_info .startShop_score {
+.index .content .Industrial .startShop .startShop_demo .startShop_zwDiv .startShop_info .startShop_score, page .content .Industrial .startShop .startShop_demo .startShop_zwDiv .startShop_info .startShop_score {
   color: #4d4d4d;
   font-size: 0.33rem;
   margin-bottom: 0.28rem;
 }
 
-.index .content .Industrial .startShop .startShop_demo .startShop_zwDiv .startShop_info .startShop_score b {
+.index .content .Industrial .startShop .startShop_demo .startShop_zwDiv .startShop_info .startShop_score b, page .content .Industrial .startShop .startShop_demo .startShop_zwDiv .startShop_info .startShop_score b {
   font-weight: normal;
   color: #ee254b;
 }
 
-.index .content .Industrial .startShop .startShop_demo .startShop_zwDiv .startShop_info .startShop_theMain {
+.index .content .Industrial .startShop .startShop_demo .startShop_zwDiv .startShop_info .startShop_theMain, page .content .Industrial .startShop .startShop_demo .startShop_zwDiv .startShop_info .startShop_theMain {
   color: #999999;
   font-size: 0.27rem;
 }
 
-.index .content .market {
+.index .content .market, page .content .market {
   padding: 0 0.32rem;
   position: absolute;
   left: 0;
@@ -361,17 +361,17 @@ body {
   background-color: #ffffff;
 }
 
-.index .content .market .market_textDiv {
+.index .content .market .market_textDiv, page .content .market .market_textDiv {
   padding-top: 0.68rem;
 }
 
-.index .content .market .market_textDiv .market_title {
+.index .content .market .market_textDiv .market_title, page .content .market .market_textDiv .market_title {
   color: #333333;
   font-size: 0.46rem;
   padding-bottom: 0.53rem;
 }
 
-.index .content .market .market_textDiv .market_text, .index .content .market .market_textDiv .market_text2 {
+.index .content .market .market_textDiv .market_text, .index .content .market .market_textDiv .market_text2, page .content .market .market_textDiv .market_text, page .content .market .market_textDiv .market_text2 {
   color: #666666;
   font-size: 0.37rem;
   line-height: 0.56rem;
@@ -380,28 +380,28 @@ body {
   word-wrap: break-word;
 }
 
-.index .content .market .market_textDiv .market_text2 {
+.index .content .market .market_textDiv .market_text2, page .content .market .market_textDiv .market_text2 {
   padding: 0 0.38rem;
 }
 
-.index .content .market .market_banner {
+.index .content .market .market_banner, page .content .market .market_banner {
   padding: 0 0.11rem;
   display: block;
   width: 9.94rem;
   height: 5.19rem;
 }
 
-.index .content .market .market_contact {
+.index .content .market .market_contact, page .content .market .market_contact {
   padding: 0.4rem 0.12rem;
 }
 
-.index .content .market .market_contact .market_contactdemo {
+.index .content .market .market_contact .market_contactdemo, page .content .market .market_contact .market_contactdemo {
   overflow: hidden;
   margin-bottom: 0.36rem;
   position: relative;
 }
 
-.index .content .market .market_contact .market_contactdemo .market_contactDiv {
+.index .content .market .market_contact .market_contactdemo .market_contactDiv, page .content .market .market_contact .market_contactdemo .market_contactDiv {
   float: left;
   overflow: hidden;
   display: -webkit-box;
@@ -409,7 +409,7 @@ body {
   display: flex;
 }
 
-.index .content .market .market_contact .market_contactdemo .market_contactDiv .market_address {
+.index .content .market .market_contact .market_contactdemo .market_contactDiv .market_address, page .content .market .market_contact .market_contactdemo .market_contactDiv .market_address {
   float: left;
   width: 0.35rem;
   height: 0.44rem;
@@ -417,7 +417,7 @@ body {
   margin-top: 0.07rem;
 }
 
-.index .content .market .market_contact .market_contactdemo .market_contactDiv .market_phone {
+.index .content .market .market_contact .market_contactdemo .market_contactDiv .market_phone, page .content .market .market_contact .market_contactdemo .market_contactDiv .market_phone {
   float: left;
   width: 0.35rem;
   height: 0.41rem;
@@ -425,7 +425,7 @@ body {
   margin-top: 0.08rem;
 }
 
-.index .content .market .market_contact .market_contactdemo .market_contactDiv .market_msg {
+.index .content .market .market_contact .market_contactdemo .market_contactDiv .market_msg, page .content .market .market_contact .market_contactdemo .market_contactDiv .market_msg {
   float: left;
   width: 0.45rem;
   height: 0.34rem;
@@ -433,13 +433,13 @@ body {
   margin-top: 0.09rem;
 }
 
-.index .content .market .market_contact .market_contactdemo .market_contactDiv .market_contact_text {
+.index .content .market .market_contact .market_contactdemo .market_contactDiv .market_contact_text, page .content .market .market_contact .market_contactdemo .market_contactDiv .market_contact_text {
   float: left;
   color: #333333;
   font-size: 0.4rem;
 }
 
-.index .content .market .market_contact .market_contactdemo .market_copy {
+.index .content .market .market_contact .market_contactdemo .market_copy, page .content .market .market_contact .market_contactdemo .market_copy {
   position: absolute;
   right: 0;
   top: 0;
@@ -448,32 +448,32 @@ body {
   font-size: 0.4rem;
 }
 
-.index .content .market .shopDoor {
+.index .content .market .shopDoor, page .content .market .shopDoor {
   padding: 0.54rem 0.47rem 0 0.47rem;
 }
 
-.index .content .market .shopDoor .shopDoor_title {
+.index .content .market .shopDoor .shopDoor_title, page .content .market .shopDoor .shopDoor_title {
   color: #333333;
   font-size: 0.43rem;
   margin-bottom: 0.44rem;
 }
 
-.index .content .market .shopDoor .shopDoor_nr {
+.index .content .market .shopDoor .shopDoor_nr, page .content .market .shopDoor .shopDoor_nr {
   overflow: hidden;
 }
 
-.index .content .market .shopDoor .shopDoor_nr .shopDoor_imgdemo:nth-child(3n) {
+.index .content .market .shopDoor .shopDoor_nr .shopDoor_imgdemo:nth-child(3n), page .content .market .shopDoor .shopDoor_nr .shopDoor_imgdemo:nth-child(3n) {
   margin-right: 0rem;
 }
 
-.index .content .market .shopDoor .shopDoor_nr .shopDoor_imgdemo {
+.index .content .market .shopDoor .shopDoor_nr .shopDoor_imgdemo, page .content .market .shopDoor .shopDoor_nr .shopDoor_imgdemo {
   float: left;
   overflow: hidden;
   margin-right: 0.17rem;
   margin-bottom: 0.59rem;
 }
 
-.index .content .market .shopDoor .shopDoor_nr .shopDoor_imgdemo .shopDoor_img {
+.index .content .market .shopDoor .shopDoor_nr .shopDoor_imgdemo .shopDoor_img, page .content .market .shopDoor .shopDoor_nr .shopDoor_imgdemo .shopDoor_img {
   display: block;
   margin-bottom: 0.19rem;
   width: 2.96rem;
@@ -482,13 +482,13 @@ body {
           box-shadow: 0 0.03rem 0.07rem 0 rgba(114, 119, 121, 0.28);
 }
 
-.index .content .market .shopDoor .shopDoor_nr .shopDoor_imgdemo .shopDoor_text {
+.index .content .market .shopDoor .shopDoor_nr .shopDoor_imgdemo .shopDoor_text, page .content .market .shopDoor .shopDoor_nr .shopDoor_imgdemo .shopDoor_text {
   color: #333333;
   font-size: 0.35rem;
   text-align: center;
 }
 
-.index .content .call_fixed {
+.index .content .call_fixed, page .content .call_fixed {
   background-color: #f7f7f7;
   border-top: 0.01rem solid #e6e6e6;
   position: fixed;
@@ -497,12 +497,12 @@ body {
   bottom: 0;
 }
 
-.index .content .call_fixed .callDiv {
+.index .content .call_fixed .callDiv, page .content .call_fixed .callDiv {
   overflow: hidden;
   padding: 0 0.42rem;
 }
 
-.index .content .call_fixed .callDiv .call_number {
+.index .content .call_fixed .callDiv .call_number, page .content .call_fixed .callDiv .call_number {
   color: #191919;
   font-size: 0.46rem;
   margin-left: 2.2rem;
@@ -510,7 +510,7 @@ body {
   float: left;
 }
 
-.index .content .call_fixed .callDiv .call_btn {
+.index .content .call_fixed .callDiv .call_btn, page .content .call_fixed .callDiv .call_btn {
   color: #ffffff;
   font-size: 0.46rem;
   text-align: center;
@@ -523,7 +523,7 @@ body {
   padding: 0 0.6rem;
 }
 
-.index .content .call_fixed .callImg {
+.index .content .call_fixed .callImg, page .content .call_fixed .callImg {
   position: absolute;
   left: 0.4rem;
   top: -0.55rem;
@@ -531,23 +531,23 @@ body {
   border-radius: 1rem;
 }
 
-.index .content .call_fixed .callImg .phone2 {
+.index .content .call_fixed .callImg .phone2, page .content .call_fixed .callImg .phone2 {
   width: 1.13rem;
   height: 1.13rem;
   display: block;
 }
 
-.index .content .dynamic {
+.index .content .dynamic, page .content .dynamic {
   padding: 0 0.4rem;
   background-color: #ffffff;
 }
 
-.index .content .dynamic .dynamic_top {
+.index .content .dynamic .dynamic_top, page .content .dynamic .dynamic_top {
   border-bottom: 0.03rem solid #ebebeb;
   padding-top: 0.61rem;
 }
 
-.index .content .dynamic .dynamic_top .dynamic_titleEdit {
+.index .content .dynamic .dynamic_top .dynamic_titleEdit, page .content .dynamic .dynamic_top .dynamic_titleEdit {
   margin-bottom: 0.4rem;
   color: #363636;
   font-size: 0.48rem;
@@ -558,21 +558,21 @@ body {
   word-wrap: break-word;
 }
 
-.index .content .dynamic .dynamic_top .dynamic_titleEdit:empty:before {
+.index .content .dynamic .dynamic_top .dynamic_titleEdit:empty:before, page .content .dynamic .dynamic_top .dynamic_titleEdit:empty:before {
   content: "这里是一个动态的标题内容";
 }
 
-.index .content .dynamic .dynamic_top .dynamic_titleEdit:focus:before {
+.index .content .dynamic .dynamic_top .dynamic_titleEdit:focus:before, page .content .dynamic .dynamic_top .dynamic_titleEdit:focus:before {
   content: none;
 }
 
-.index .content .dynamic .dynamic_top .dynamic_time {
+.index .content .dynamic .dynamic_top .dynamic_time, page .content .dynamic .dynamic_top .dynamic_time {
   color: #333333;
   font-size: 0.32rem;
   margin-bottom: 0.15rem;
 }
 
-.index .content .dynamic .dynamic_nrEdit {
+.index .content .dynamic .dynamic_nrEdit, page .content .dynamic .dynamic_nrEdit {
   padding: 0.39rem 0;
   color: #333333;
   font-size: 0.4rem;
@@ -584,21 +584,21 @@ body {
   min-height: 9rem;
 }
 
-.index .content .dynamic .dynamic_nrEdit:empty:before {
+.index .content .dynamic .dynamic_nrEdit:empty:before, page .content .dynamic .dynamic_nrEdit:empty:before {
   content: "动态的正文内容显示在这里，最多只能写500个字";
 }
 
-.index .content .dynamic .dynamic_nrEdit:focus:before {
+.index .content .dynamic .dynamic_nrEdit:focus:before, page .content .dynamic .dynamic_nrEdit:focus:before {
   content: none;
 }
 
-.index .content .News {
+.index .content .News, page .content .News {
   margin-top: 0.3rem;
   padding: 0.43rem 0.33rem 0rem 0.47rem;
   background-color: #ffffff;
 }
 
-.index .content .News .News_demo {
+.index .content .News .News_demo, page .content .News .News_demo {
   border-top: solid 0.02rem #f2f2f2;
   padding-right: 0.67rem;
   padding-left: 0.14rem;
@@ -613,7 +613,7 @@ body {
   white-space: nowrap;
 }
 
-.index .content .News .News_demo .News_title {
+.index .content .News .News_demo .News_title, page .content .News .News_demo .News_title {
   color: #333333;
   font-size: 0.36rem;
   line-height: 1.02rem;
@@ -623,7 +623,7 @@ body {
   white-space: nowrap;
 }
 
-.index .content .News .News_demo .News_time {
+.index .content .News .News_demo .News_time, page .content .News .News_demo .News_time {
   float: right;
   color: #333333;
   font-size: 0.32rem;
@@ -631,14 +631,14 @@ body {
   margin-left: 0.2rem;
 }
 
-.index .content .advice .advice_top {
+.index .content .advice .advice_top, page .content .advice .advice_top {
   margin-top: 0.36rem;
   background-color: #ffffff;
   padding: 0 0.55rem;
   overflow: hidden;
 }
 
-.index .content .advice .advice_top .advice_top_bt {
+.index .content .advice .advice_top .advice_top_bt, page .content .advice .advice_top .advice_top_bt {
   color: #333333;
   font-size: 0.42rem;
   float: left;
@@ -646,11 +646,11 @@ body {
   line-height: 1.1rem;
 }
 
-.index .content .advice .advice_top ::-webkit-input-placeholder {
+.index .content .advice .advice_top ::-webkit-input-placeholder, page .content .advice .advice_top ::-webkit-input-placeholder {
   color: #bfbfbf;
 }
 
-.index .content .advice .advice_top .advice_Name {
+.index .content .advice .advice_top .advice_Name, page .content .advice .advice_top .advice_Name {
   float: left;
   font-size: 0.42rem;
   line-height: 1.1rem;
@@ -659,26 +659,26 @@ body {
   color: #bfbfbf;
 }
 
-.index .content .advice .advice_nr {
+.index .content .advice .advice_nr, page .content .advice .advice_nr {
   background-color: #ffffff;
   margin-top: 0.36rem;
   padding: 0rem 0.61rem 1.04rem 0.61rem;
 }
 
-.index .content .advice .advice_nr .advice_nrTitle {
+.index .content .advice .advice_nr .advice_nrTitle, page .content .advice .advice_nr .advice_nrTitle {
   color: #333333;
   font-size: 0.42rem;
   padding-top: 0.36rem;
   padding-bottom: 0.52rem;
 }
 
-.index .content .advice .advice_nr .advice_nrEditDiv {
+.index .content .advice .advice_nr .advice_nrEditDiv, page .content .advice .advice_nr .advice_nrEditDiv {
   border: solid 0.02rem #e5e4e3;
   padding: 0 0.04rem;
   position: relative;
 }
 
-.index .content .advice .advice_nr .advice_nrEditDiv .advice_nrEdit {
+.index .content .advice .advice_nr .advice_nrEditDiv .advice_nrEdit, page .content .advice .advice_nr .advice_nrEditDiv .advice_nrEdit {
   padding: 0.1rem;
   font-size: 0.42rem;
   line-height: 0.63rem;
@@ -688,16 +688,16 @@ body {
   color: #bfbfbf;
 }
 
-.index .content .advice .advice_nr .advice_nrEditDiv .advice_nrEdit:empty:before {
+.index .content .advice .advice_nr .advice_nrEditDiv .advice_nrEdit:empty:before, page .content .advice .advice_nr .advice_nrEditDiv .advice_nrEdit:empty:before {
   content: "输入内容...";
   color: #bfbfbf;
 }
 
-.index .content .advice .advice_nr .advice_nrEditDiv .advice_nrEdit:focus:before {
+.index .content .advice .advice_nr .advice_nrEditDiv .advice_nrEdit:focus:before, page .content .advice .advice_nr .advice_nrEditDiv .advice_nrEdit:focus:before {
   content: none;
 }
 
-.index .content .advice .advice_nr .advice_nrEditDiv .advice_nrHint {
+.index .content .advice .advice_nr .advice_nrEditDiv .advice_nrHint, page .content .advice .advice_nr .advice_nrEditDiv .advice_nrHint {
   position: absolute;
   bottom: 0.25rem;
   right: 0.5rem;
@@ -705,7 +705,7 @@ body {
   font-size: 0.3rem;
 }
 
-.index .content .advice .advice_submit {
+.index .content .advice .advice_submit, page .content .advice .advice_submit {
   margin: 0.9rem 1.44rem;
   color: #ffffff;
   font-size: 0.42rem;
@@ -715,7 +715,7 @@ body {
   text-align: center;
 }
 
-.index .content .ContactUs {
+.index .content .ContactUs, page .content .ContactUs {
   background-color: #ffffff;
   position: absolute;
   left: 0;
@@ -725,29 +725,29 @@ body {
   overflow: auto;
 }
 
-.index .content .ContactUs .map {
+.index .content .ContactUs .map, page .content .ContactUs .map {
   width: 10.8rem;
   height: 9.74rem;
   display: block;
 }
 
-.index .content .ContactUs .ContactUs_nr {
+.index .content .ContactUs .ContactUs_nr, page .content .ContactUs .ContactUs_nr {
   padding: 0 0.48rem;
   position: relative;
 }
 
-.index .content .ContactUs .ContactUs_nr .ContactUs_title {
+.index .content .ContactUs .ContactUs_nr .ContactUs_title, page .content .ContactUs .ContactUs_nr .ContactUs_title {
   color: #333333;
   font-size: 0.46rem;
   margin-top: 0.48rem;
   margin-bottom: 0.98rem;
 }
 
-.index .content .ContactUs .ContactUs_nr .Contact_mainDiv {
+.index .content .ContactUs .ContactUs_nr .Contact_mainDiv, page .content .ContactUs .ContactUs_nr .Contact_mainDiv {
   padding: 0rem 0.4rem;
 }
 
-.index .content .ContactUs .ContactUs_nr .Contact_mainDiv .ContactAddress_demo {
+.index .content .ContactUs .ContactUs_nr .Contact_mainDiv .ContactAddress_demo, page .content .ContactUs .ContactUs_nr .Contact_mainDiv .ContactAddress_demo {
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -755,7 +755,7 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.index .content .ContactUs .ContactUs_nr .Contact_mainDiv .ContactAddress_demo .Contact_addressIcon, .index .content .ContactUs .ContactUs_nr .Contact_mainDiv .ContactAddress_demo .Contact_addressIcon2 {
+.index .content .ContactUs .ContactUs_nr .Contact_mainDiv .ContactAddress_demo .Contact_addressIcon, .index .content .ContactUs .ContactUs_nr .Contact_mainDiv .ContactAddress_demo .Contact_addressIcon2, page .content .ContactUs .ContactUs_nr .Contact_mainDiv .ContactAddress_demo .Contact_addressIcon, page .content .ContactUs .ContactUs_nr .Contact_mainDiv .ContactAddress_demo .Contact_addressIcon2 {
   float: left;
   width: 0.35rem;
   height: 0.45rem;
@@ -763,14 +763,14 @@ body {
   margin-top: 0.08rem;
 }
 
-.index .content .ContactUs .ContactUs_nr .Contact_mainDiv .ContactAddress_demo .Contact_addressIcon2 {
+.index .content .ContactUs .ContactUs_nr .Contact_mainDiv .ContactAddress_demo .Contact_addressIcon2, page .content .ContactUs .ContactUs_nr .Contact_mainDiv .ContactAddress_demo .Contact_addressIcon2 {
   width: 0.33rem;
   height: 0.33rem;
   margin-right: 0.29rem;
   margin-top: 0.09rem;
 }
 
-.index .content .ContactUs .ContactUs_nr .Contact_mainDiv .ContactAddress_demo .CintactAddress_p {
+.index .content .ContactUs .ContactUs_nr .Contact_mainDiv .ContactAddress_demo .CintactAddress_p, page .content .ContactUs .ContactUs_nr .Contact_mainDiv .ContactAddress_demo .CintactAddress_p {
   float: left;
   color: #333333;
   font-size: 0.4rem;
@@ -779,7 +779,7 @@ body {
   word-wrap: break-word;
 }
 
-.index .content .ContactUs .ContactUs_nr .gohereIcon {
+.index .content .ContactUs .ContactUs_nr .gohereIcon, page .content .ContactUs .ContactUs_nr .gohereIcon {
   position: absolute;
   right: 0.42rem;
   top: -1.2rem;

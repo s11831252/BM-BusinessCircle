@@ -1,0 +1,62 @@
+<template>
+        <div class="index">
+        <div class="content">
+            <div class="market">
+                <div class="market_textDiv">
+                    <div class="market_text2">
+                        广西工业器材城位于南宁市西乡塘安园东路18号，周边有万达商业广场、邮政物流中心、东博机电城、晨雄机电市场、大商汇建材家居城及汽车市场、钢材市场等商贸中心和大型专业市场，项目总占地219亩，总建筑面积约30万平方米，计划总投资额16.8亿元人民币，是南宁市唯一拥有产权的五金机电市场，是集五金、机电产品展示交易、电商交易、金融结算、仓储物流、配套服务于一体的广西五金机电流通总部。
+                    </div>
+                </div>
+                <div class="shopDoor">
+                    <div class="shopDoor_title">商铺户型</div>
+                    <div class="shopDoor_nr">
+                        <div class="shopDoor_imgdemo">
+                            <img class="shopDoor_img" src="img/inverstment_img1.png" alt="" />
+                            <p class="shopDoor_text">500㎡</p>
+                        </div>
+                        <div class="shopDoor_imgdemo">
+                            <img class="shopDoor_img" src="img/inverstment_img2.png" alt="" />
+                            <p class="shopDoor_text">500㎡</p>
+                        </div>
+                        <div class="shopDoor_imgdemo">
+                            <img class="shopDoor_img" src="img/inverstment_img3.png" alt="" />
+                            <p class="shopDoor_text">500㎡</p>
+                        </div>
+                        <div class="shopDoor_imgdemo">
+                            <img class="shopDoor_img" src="img/inverstment_img4.png" alt="" />
+                            <p class="shopDoor_text">500㎡</p>
+                        </div>
+                        <div class="shopDoor_imgdemo">
+                            <img class="shopDoor_img" src="img/inverstment_img5.png" alt="" />
+                            <p class="shopDoor_text">500㎡</p>
+                        </div>
+                        <div class="shopDoor_imgdemo">
+                            <img class="shopDoor_img" src="img/inverstment_img6.png" alt="" />
+                            <p class="shopDoor_text">500㎡</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="call_fixed">
+                <div class="callDiv">
+                        <p class="call_number">0771-3335666</p>
+                        <div class="call_btn">立即拨打</div>
+                </div>
+                <div class="callImg">
+                    <img class="phone2" src="img/phone2.png" alt="" />
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</template>
+<script>
+export default {
+    
+}
+</script>
+<style scoped>
+
+</style>

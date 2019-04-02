@@ -1,76 +1,53 @@
 var routes = [
     {
-        path: 'pages/shop/index',
-        name: 'shop',
+        path: 'pages/bm/index',
+        name: 'bm',
         config: {
-            navigationBarTitleText: '店铺主页',
+            navigationBarTitleText: '建材商圈',
             enablePullDownRefresh: true
           },
     },
     {
-        path: 'pages/home/index',
-        name: 'home',
+        path: 'pages/bm/about',
+        name: 'bm-about',
         config: {
-            navigationBarTitleText: '主页',
-            enablePullDownRefresh: true
+            navigationBarTitleText: '市场介绍',
           },
     },
     {
-        path: 'pages/order/index',
-        name: 'order',
+        path: 'pages/bm/invite',
+        name: 'bm-invite',
         config: {
-            navigationBarTitleText: '订单',
-            enablePullDownRefresh: true
+            navigationBarTitleText: '招商入驻',
           },
     },
     {
-        path: 'pages/my/index',
-        name: 'my',
+        path: 'pages/bm/suggestion',
+        name: 'bm-suggestion',
         config: {
-            navigationBarTitleText: '我的',
-            enablePullDownRefresh: false
+            navigationBarTitleText: '投诉建议',
           },
     },
     {
-        path:'pages/shop/detail',
-        name:'shopdetail',
+        path: 'pages/bm/contact',
+        name: 'bm-contact',
         config: {
-            navigationBarTitleText: '店铺详情',
-            enablePullDownRefresh: false
-        }
+            navigationBarTitleText: '联系方式',
+          },
     },
     {
-        path:'pages/shop/good-detail',
-        name:'good-detail',
+        path: 'pages/bm/news',
+        name: 'bm-news',
         config: {
-            navigationBarTitleText: '商品详情',
-            enablePullDownRefresh: false
-        }
-    },
-    
-    {
-        path:'pages/order/settle',
-        name:'settle',
-        config: {
-            navigationBarTitleText: '订单结算',
-            enablePullDownRefresh: false
-        }
+            navigationBarTitleText: '最新动态',
+          },
     },
     {
-        path:'pages/order/logistics',
-        name:'logistics',
+        path: 'pages/bm/newsdetail',
+        name: 'bm-newsdetail',
         config: {
-            navigationBarTitleText: '物流选择',
-            enablePullDownRefresh: false
-        }
+            navigationBarTitleText: '动态详情',
+          },
     },
-    {
-        path:'pages/order/pay',
-        name:'pay',
-        config: {
-            navigationBarTitleText: '订单支付',
-            enablePullDownRefresh: false
-        },
-    }
 ]
 module.exports =routes

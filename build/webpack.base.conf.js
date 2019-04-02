@@ -100,12 +100,6 @@ module.exports = {
   plugins: [
     new MpvuePlugin(),
     new MpvueEntry(),
-    new CopyWebpackPlugin([{
-      from: '../ext.json',
-      to: path.resolve(__dirname, '../dist')
-    }], {
-      context: 'src/'
-    }),
     new webpack.DefinePlugin({
       'mpvue_Mode': JSON.stringify('WX'),
     }),

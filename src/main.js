@@ -3,11 +3,11 @@ import App from './App'
 import MpvueRoterPatch from 'mpvue-router-patch'
 import store from './store'
 import UJAPI from "./api/UJAPI"
-import ShoppingAPI from "./api/ShoppingAPI"
+import BMAPI from "./api/BMAPI"
 import { debug } from 'util';
 
 Vue.prototype.$UJAPI = UJAPI; //在实例中用$UJAPI调用UJAPI封装好的RestAPI
-Vue.prototype.$ShoppingAPI = ShoppingAPI; //在实例中用$ShoppingAPI调用ShoppingAPI.js封装好的RestAPI
+Vue.prototype.$BMAPI = BMAPI; //在实例中用$BMAPI调用BMAPI.js封装好的RestAPI
 Vue.prototype.$store = store;
 Vue.mixin({
     data() {
@@ -22,9 +22,6 @@ Vue.mixin({
         isMP() {
             return true;
         },
-        extConfig() {
-            return wx.getExtConfigSync ? wx.getExtConfigSync() : {};
-        }
     },
     methods: {
         go: function (path) {
@@ -103,6 +100,4 @@ Vue.use(MpvueRoterPatch);//在Vue实例中使用$Router访问Vuex
 Vue.config.productionTip = false
 App.mpType = 'app'
 const app = new Vue(App)
-
-
 app.$mount()

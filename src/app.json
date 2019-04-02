@@ -1,21 +1,5 @@
 {
   "pages": [
   ],
-  "window": {},
-  "tabBar": {
-    "color":"#000",
-    "selectedColor":"#c77b2d",
-    "list": [
-      {
-        "pagePath": "pages/shop/index",
-        "text": "商品清单"
-      },
-
-      {
-        "pagePath": "pages/shop/detail",
-        "text": "联系我们"
-      }
-    ]
-  },
-  "navigateToMiniProgramAppIdList":["wx443ed32fe34ba2f0"]
+  "window": {}
 }

@@ -1,14 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import home from './pages/home/index'
-import order from './pages/order/index'
-import my from './pages/my/index'
-import index from './pages/index/indexH5'
-import shop from './pages/shop/index'
-import shopgoods from './pages/shop/detail'
-import settle from './pages/order/settle'
-import logistics from './pages/order/logistics'
-import pay from './pages/order/pay'
+import bm from './pages/bm/index'
+import about from './pages/bm/about'
+import invite from './pages/bm/invite'
+import suggestion from './pages/bm/suggestion'
+import contact from './pages/bm/contact'
+import news from './pages/bm/news'
+import newsdetail from './pages/bm/newsdetail'
+
 
 
 import store from './store'
@@ -16,103 +15,72 @@ Vue.use(Router)
 var routes = [
     {
         path:'/',
-        redirect:'pages/shop/index'
+        redirect:'pages/bm/index'
     },
     {
-        path: 'pages/index/index',
-        name: 'index',
+        path: 'pages/bm/index',
+        name: 'bm',
         config: {
-            navigationBarTitleText: '授权登录页',
+            navigationBarTitleText: '建材商圈',
             enablePullDownRefresh: true
         },
-        meta: { noAuth: true },
-        alias: '/pages/index/index',
-        component: index
+        alias: '/pages/bm/index',
+        component: bm
     },
     {
-        path: 'pages/home/index',
-        name: 'home',
+        path: 'pages/bm/about',
+        name: 'bm-about',
         config: {
-            navigationBarTitleText: '主页',
-            enablePullDownRefresh: true,
-            EnableNav:true,
+            navigationBarTitleText: '商圈介绍',
         },
-        alias: '/pages/home/index',
-        component: home
+        alias: '/pages/bm/about',
+        component: about
     },
     {
-        path: 'pages/order/index',
-        name: 'order',
+        path: 'pages/bm/invite',
+        name: 'bm-invite',
         config: {
-            navigationBarTitleText: '订单',
-            enablePullDownRefresh: true,
-            EnableNav:true,
+            navigationBarTitleText: '招商入驻',
         },
-        alias: '/pages/order/index',
-        component: order
+        alias: '/pages/bm/invite',
+        component: invite
     },
     {
-        path: 'pages/my/index',
-        name: 'my',
+        path: 'pages/bm/suggestion',
+        name: 'bm-suggestion',
         config: {
-            navigationBarTitleText: '我的',
-            enablePullDownRefresh: true,
-            EnableNav:true,
-
-        },
-        alias: '/pages/my/index',
-        component: my
+            navigationBarTitleText: '投诉建议',
+          },
+          alias: '/pages/bm/suggestion',
+          component: suggestion
     },
     {
-        path: 'pages/shop/index',
-        name: 'shopindex',
+        path: 'pages/bm/contact',
+        name: 'bm-contact',
         config: {
-            navigationBarTitleText: '店铺详情',
-            enablePullDownRefresh: true
-        },
-        alias: '/pages/shop/index',
-        component: shop
+            navigationBarTitleText: '联系方式',
+          },
+          alias: '/pages/bm/contact',
+          component: contact
     },
     {
-        path:'pages/shop/detail',
-        name:'shopgoods',
+        path: 'pages/bm/news',
+        name: 'bm-news',
         config: {
-            navigationBarTitleText: '商品详情',
-            enablePullDownRefresh: false
-        },
-        alias: '/pages/shop/detail',
-        component: shopgoods
-    },    
-    {
-        path:'pages/order/settle',
-        name:'settle',
-        config: {
-            navigationBarTitleText: '订单结算',
-            enablePullDownRefresh: false
-        },
-        alias: '/pages/order/settle',
-        component: settle
+            navigationBarTitleText: '最新动态',
+          },
+          alias: '/pages/bm/news',
+          component: news
     },
     {
-        path:'pages/order/logistics',
-        name:'logistics',
+        path: 'pages/bm/newsdetail',
+        name: 'bm-newsdetail',
         config: {
-            navigationBarTitleText: '物流选择',
-            enablePullDownRefresh: false
-        },
-        alias: '/pages/order/logistics',
-        component: logistics
+            navigationBarTitleText: '动态详情',
+          },
+          alias: '/pages/bm/newsdetail',
+          component: newsdetail
     },
-    {
-        path:'pages/order/pay',
-        name:'pay',
-        config: {
-            navigationBarTitleText: '订单支付',
-            enablePullDownRefresh: false
-        },
-        alias: '/pages/order/pay',
-        component: pay
-    }
 ]
 
 let router =new Router({routes:routes})

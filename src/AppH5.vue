@@ -1,14 +1,16 @@
 <template>
     <div id="app">
-      <div>
+      <div class="index">
+        <div class="top">
+            <img class="back" src="img/back.png" alt="" />
+            <p class="top_title">招商入驻</p>
+        </div>
         <router-view></router-view>
-        <mynav v-if="Enable"></mynav>
       </div>
     </div>
 </template>
 
 <script>
-import mynav from '@/components/mynav.vue'
 
 export default {
   computed:{
@@ -21,11 +23,11 @@ export default {
     }
   },
   components: {
-    mynav,
   },
 };
 </script>
 <style>
+@import url('./assets/style.css');
 @import url('./assets/global.css');
 @import url('./assets/iconfont.less');
 @import url('./components/Toast/toast.css');
