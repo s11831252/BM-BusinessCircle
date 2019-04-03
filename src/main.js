@@ -16,6 +16,9 @@ Vue.mixin({
         }
     },
     computed: {
+        BusinesId(){
+            return this.$route.query.BusinesId  ||"3d185eeb-066c-44af-bf6e-f3d5b42e9e6b";
+        },
         $route: function () {
             return this.$router.currentRoute
         },
@@ -27,10 +30,13 @@ Vue.mixin({
         go: function (path) {
             this.$router.push(path);
         },
+        back: function () {
+            this.$router.back();
+        },
         replace: function (path) {
             this.$router.replace(path);
         },
-        toast(title) {
+        alert(title) {
             wx.showToast({
                 title: title,
                 icon: "none"

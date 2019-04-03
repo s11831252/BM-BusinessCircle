@@ -8,6 +8,14 @@ var routes = [
           },
     },
     {
+        path: 'pages/bm/subject',
+        name: 'bm-subject',
+        config: {
+            navigationBarTitleText: '商圈分类',
+            enablePullDownRefresh: true
+          },
+    },
+    {
         path: 'pages/bm/about',
         name: 'bm-about',
         config: {

@@ -2,8 +2,8 @@
     <div id="app">
       <div class="index">
         <div class="top">
-            <img class="back" src="img/back.png" alt="" />
-            <p class="top_title">招商入驻</p>
+            <img class="back" src="/static/img/back.png" alt="" @click="back()" />
+            <p class="top_title">{{nowRouteConfig.navigationBarTitleText}}</p>
         </div>
         <router-view></router-view>
       </div>
@@ -14,16 +14,20 @@
 
 export default {
   computed:{
+    //此处判断当前route是否启动导航
     Enable(){
+      return this.nowRouteConfig&&this.nowRouteConfig.EnableNav;
+    },
+    nowRouteConfig(){
       var that =this;
       var nowRouteConfig= this.$router.options.routes.find((item)=>{
         return  item.alias==that.$route.path;
-      });//此处判断当前route是否启动导航
-      return nowRouteConfig&&nowRouteConfig.config&&nowRouteConfig.config.EnableNav;
+      });
+      return nowRouteConfig?nowRouteConfig.config:{};
     }
   },
   components: {
-  },
+  }, 
 };
 </script>
 <style>

@@ -1,63 +1,29 @@
 <template>
   <div class="content">
     <div class="News">
-      <div class="News_demo" @click="go({path:'/pages/bm/newsdetail'})">
-        <p class="News_title">8.5折建材盛大开抢1</p>
-        <p class="News_time">2019/02/28</p>
-      </div>
-      <div class="News_demo">
-        <p class="News_title">建材免费用啦！</p>
-        <p class="News_time">2019/02/28</p>
-      </div>
-      <div class="News_demo">
-        <p class="News_title">南宁低价建材都在这了</p>
-        <p class="News_time">2019/02/28</p>
-      </div>
-      <div class="News_demo">
-        <p class="News_title">南宁低价建材都在这了</p>
-        <p class="News_time">2019/02/28</p>
-      </div>
-      <div class="News_demo">
-        <p class="News_title">建材免费用啦！</p>
-        <p class="News_time">2019/02/28</p>
-      </div>
-      <div class="News_demo">
-        <p class="News_title">南宁低价建材都在这了</p>
-        <p class="News_time">2019/02/28</p>
-      </div>
-      <div class="News_demo">
-        <p class="News_title">南宁低价建材都在这了</p>
-        <p class="News_time">2019/02/28</p>
-      </div>
-      <div class="News_demo">
-        <p class="News_title">建材免费用啦！</p>
-        <p class="News_time">2019/02/28</p>
-      </div>
-      <div class="News_demo">
-        <p class="News_title">南宁低价建材都在这了</p>
-        <p class="News_time">2019/02/28</p>
-      </div>
-      <div class="News_demo">
-        <p class="News_title">南宁低价建材都在这了</p>
-        <p class="News_time">2019/02/28</p>
-      </div>
-      <div class="News_demo">
-        <p class="News_title">建材免费用啦！</p>
-        <p class="News_time">2019/02/28</p>
-      </div>
-      <div class="News_demo">
-        <p class="News_title">南宁低价建材都在这了</p>
-        <p class="News_time">2019/02/28</p>
-      </div>
-      <div class="News_demo">
-        <p class="News_title">南宁低价建材都在这了</p>
-        <p class="News_time">2019/02/28</p>
+      <div v-for="(item,index) in newsList" :key="index" class="News_demo" @click="go({path:'/pages/bm/newsdetail',query:{Id:item.NewPictureID}})">
+        <p class="News_title">{{item.Headline}}</p>
+        <p class="News_time">{{item.AddTime}}</p>
       </div>
     </div>
   </div>
 </template>
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      newsList:[],
+    };
+  },
+  async mounted(){
+     var response =  await this.$BMAPI.NewsApi_GetAllNewsInfo();
+     if(response.ret==0)
+     {
+       this.newsList=response.data;
+     }
+     
+  }
+};
 </script>
 <style scoped>
 </style>

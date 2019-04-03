@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import bm from './pages/bm/index'
+import subject from './pages/bm/subject'
 import about from './pages/bm/about'
 import invite from './pages/bm/invite'
 import suggestion from './pages/bm/suggestion'
@@ -26,6 +27,16 @@ var routes = [
         },
         alias: '/pages/bm/index',
         component: bm
+    },
+    {
+        path: 'pages/bm/subject',
+        name: 'bm-subject',
+        config: {
+            navigationBarTitleText: '商圈分类',
+            enablePullDownRefresh: true
+          },
+          alias: '/pages/bm/subject',
+          component: subject
     },
     {
         path: 'pages/bm/about',

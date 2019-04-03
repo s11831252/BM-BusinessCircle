@@ -32,6 +32,7 @@ const net = {
             });
             return false;
           }
+          console.log(res,res.data)
           if(res.data&&res.data.ret)
             if(res.data.ret==10000||res.data.ret==10001||res.data.ret==10002)
             {
