@@ -24,7 +24,7 @@ export default {
       var rep = await this.$BMAPI.NewsApi_GetNewsInfo(this.NewPictureID)
       if(rep.ret==0)
       {
-        this.Info=rep.data[0];
+        this.Info=rep.data;
       }
     }
   }

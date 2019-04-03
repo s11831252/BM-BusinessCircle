@@ -24,7 +24,7 @@
             <img class="market_msg" src="/static/img/msg.png" alt>
             <p class="market_contact_text">{{Info.MarketEmail}}</p>
           </div>
-          <p class="market_copy">复制</p>
+          <!-- <p class="market_copy">复制</p> -->
         </div>
       </div>
     </div>
