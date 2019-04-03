@@ -8,7 +8,7 @@
         <div class="shopDoor_title">商铺户型</div>
         <div class="shopDoor_nr">
           <div class="shopDoor_imgdemo" v-for="(item,index) in Info.picture" :key="index">
-            <img class="shopDoor_img" :src="item.ImgBase64" alt>
+            <img class="shopDoor_img" :src="'data:image/png;base64,'+item.ImgBase64" alt>
             <p class="shopDoor_text">{{item.ImgContent}}</p>
           </div>
         </div>
@@ -20,7 +20,7 @@
         <a :href="'tel:'+Info.InvestmentPhone"><div class="call_btn">立即拨打</div></a>
       </div>
       <div class="callImg">
-        <img class="phone2" src="img/phone2.png" alt>
+        <img class="phone2" src="/static/img/phone2.png" alt>
       </div>
     </div>
   </div>

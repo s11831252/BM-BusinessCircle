@@ -1,12 +1,12 @@
 <template>
   <div class="content">
     <div class="ContactUs" v-if="Info">
-      <img class="map" src="/static/img/map.png" alt>
+      <img class="map" :src="'data:image/png;base64,'+Info.LocationPicture" alt>
       <div class="ContactUs_nr">
         <div class="ContactUs_title">广西工业器材城</div>
         <div class="Contact_mainDiv">
           <div class="ContactAddress_demo">
-            <img class="Contact_addressIcon" :src="Info.LocationPicture" alt>
+            <img class="Contact_addressIcon" src="/static/img/address.png" alt>
             <p class="CintactAddress_p">{{Info.MarketAddress}}</p>
           </div>
           <div class="ContactAddress_demo">

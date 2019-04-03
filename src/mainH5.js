@@ -53,7 +53,8 @@ Vue.mixin({
       }
     },
     back: function () {
-      if (this.$route.fullPath=="/pages/bm/index"||this.$route.fullPath=="/") {
+      console.log(this.$route);
+      if (this.$route.path=="/pages/bm/index"||this.$route.path=="/") {
         window.location.href="http://close";
         return false
       } else {
