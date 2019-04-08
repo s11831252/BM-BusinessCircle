@@ -16,7 +16,7 @@ export default {
     };
   },
   async mounted(){
-     var response =  await this.$BMAPI.NewsApi_GetAllNewsInfo();
+     var response =  await this.$BMAPI.NewsApi_GetAllNewsInfo(this.BusinesId);
      if(response.ret==0)
      {
        this.newsList=response.data;
