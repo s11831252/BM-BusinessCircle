@@ -16,7 +16,7 @@
     </div>
     <div class="call_fixed">
       <div class="callDiv">
-        <p class="call_number">{{Info.InvestmentPhone}}</p>
+        <a :href="'tel:'+Info.InvestmentPhone"><p class="call_number">{{Info.InvestmentPhone}}</p></a>
         <a :href="'tel:'+Info.InvestmentPhone"><div class="call_btn">立即拨打</div></a>
       </div>
       <div class="callImg">
