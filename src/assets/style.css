@@ -43,16 +43,12 @@ body {
 .index .top .back {
   width: 0.23rem;
   height: 0.44rem;
-  float: left;
   padding: 0.42rem 0.6rem;
+  position: absolute;
+  z-index: 1;
 }
 
 .index .top .top_title {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: -1;
   color: #ffffff;
   font-size: 0.46rem;
   line-height: 1.28rem;

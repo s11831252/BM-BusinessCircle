@@ -8,7 +8,7 @@
       <div class="advice_nr">
         <p class="advice_nrTitle">投诉建议</p>
         <div class="advice_nrEditDiv">
-          <div class="advice_nrEdit" v-model="Info.SuggestionContent" contenteditable="true"></div>
+          <textarea style="width:98%;" class="advice_nrEdit" v-model="Info.SuggestionContent"  placeholder="输入内容"></textarea>
           <p class="advice_nrHint">500</p>
         </div>
       </div>
@@ -29,6 +29,7 @@ export default {
   },
   methods:{
     async postInfo(){
+      console.log(this.Info);
       var rep = await this.$BMAPI.SuggestionApi_FirstPictureInfo(this.Info)
       if(rep.ret==0)
       {

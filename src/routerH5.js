@@ -22,7 +22,7 @@ var routes = [
         path: 'pages/bm/index',
         name: 'bm',
         config: {
-            navigationBarTitleText: '建材商圈',
+            navigationBarTitleText: '行业商圈',
             enablePullDownRefresh: true
         },
         alias: '/pages/bm/index',

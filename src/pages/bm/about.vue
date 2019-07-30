@@ -5,7 +5,7 @@
         <p class="market_title">市场介绍</p>
         <div class="market_text">{{Info.MarketContent}}</div>
       </div>
-      <img class="market_banner" src="/static/img/market_banner.png" alt>
+      <img class="market_banner" style="width:100%;height:auto;" :src="'data:image/png;base64,'+Info.MarketPicture"  alt>
       <div class="market_contact">
         <div class="market_contactdemo">
           <div class="market_contactDiv">
